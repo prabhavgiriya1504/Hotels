@@ -1,0 +1,19 @@
+{
+  "name": "node_tutorial",
+  "version": "1.0.0",
+  "description": "its a nodejs tutorial by prabhav",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node myfile.js",
+    "dev": "nodemon myfile.js"
+  },
+  "author": "prabhav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
